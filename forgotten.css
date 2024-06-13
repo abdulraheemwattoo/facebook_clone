@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.head {
+
+    width: 1680px;
+    height: 55px;
+    box-sizing: border-box;
+}
+
+.facebook {
+    margin-left: 22px;
+}
+
+.facebook h1 {
+
+    font-family: Helvetica;
+    font-size: 180%;
+    color: #0766FF;
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .login_session {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 620px;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.login_session input {
+
+    width: 190px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: white;
+    padding-left: 10px;
+    border: #b8b9bc solid 1.7px;
+    font-size: 15px;
+
+
+
+}
+
+.login_session input::placeholder {
+    color: #6C6D71;
+    font-weight: 550;
+
+
+}
+
+.login_session button {
+
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1B76E4;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+
+
+
+}
+
+.login_session a {
+    text-decoration: none;
+    color: #1B76E4;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.body_block {
+    height: 435px;
+    width: 1680px;
+    box-sizing: border-box;
+    background-color: #E9EBEE;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.forgoten_form {
+
+    width: 505px;
+    height: 280px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.find_account {
+
+    width: 505px;
+    height: 60px;
+    border-bottom: 1px solid #c9cace;
+    align-content: center;
+    padding-left: 15px;
+    box-sizing: border-box;
+
+}
+
+.enter_email {
+    width: 505px;
+    height: 150px;
+    border-bottom: 1px solid #c9cace;
+    align-content: center;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.enter_email p {
+
+    font-size: 17px;
+}
+
+.enter_email input {
+
+    width: 465px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #b1b2b5;
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.cancel_search {
+    width: 505px;
+    height: 70px;
+    display: inline-block;
+    align-content: center;
+    padding-left: 290px;
+    box-sizing: border-box;
+}
+
+.cancel_search button {
+
+    width: 92px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    cursor: pointer;
+
+
+}
+
+.cancel_search .cancel {
+
+    background-color: #E4E6ED;
+    color: #5F636B;
+}
+
+.cancel_search .search {
+
+    background-color: #1877F2;
+    color: white;
+}
+.footer {
+
+    width: 985px;
+    height: 470px;
+    margin-left: 330px;
+    box-sizing: border-box;
+
+
+}
+.footer .text1 {
+
+
+    font-family: sans-serif;
+    color: #A2A5A8;
+    font-size: 80%;
+    border-bottom: 1px solid #A2A5A8;
+
+
+}
+
+.languages p {
+
+    border-bottom: 1px solid #A2A5A8;
+    padding-top: 170px;
+    padding-bottom: 10px;
+    font-size: 75%;
+    word-spacing: 8px;
+    font-family: sans-serif;
+
+}
+
+.languages a {
+
+    text-decoration: none;
+    color: gray;
+
+
+}
+
+.languages button {
+
+    border: 1px solid #A2A5A8;
+    width: 30px;
+    height: 20px;
+    color: gray;
+    border-radius: 2px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.options p {
+
+    padding-top: 10px;
+    font-size: 75%;
+    word-spacing: 8px;
+    font-family: sans-serif;
+    line-height: 18px;
+    color: gray;
+
+
+}
+
+.options a {
+
+    text-decoration: none;
+    color: gray;
+
+
+}

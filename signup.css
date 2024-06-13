@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    background-color: #F0F2F5;
+    height: 780px;
+    width: 1680px;
+    display: block;
+    text-align: center;
+
+    justify-content: space-evenly;
+}
+
+.facebook {
+
+    box-sizing: border-box;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.facebook h1 {
+
+    font-family: Helvetica ;
+    font-size: 340%;
+    color: #0766FF;
+
+}
+
+
+.all_items {
+
+    width: 435px;
+    height: 605px;
+    border-bottom: 1px solid #A2A5A8;
+    top: 50%;
+    left: 50%;
+    box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: left;
+
+
+}
+
+.popup_head {
+
+    border-bottom: 1px solid #E9EAEC;
+    padding: 20px;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 12px;
+}
+
+.popup_head p {
+    font-size: 14px;
+    color: #626972;
+}
+
+.popup_form {
+    align-items: center;
+    width: 435px;
+    box-sizing: border-box;
+
+}
+
+.input_popup {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.input_popup input {
+
+    width: 195px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 10px;
+    outline: none;
+    border: #E9EAEC solid 1.5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    background: white;
+
+}
+
+
+.popup_form label {
+    font-family: sans-serif;
+    font-size: 13px;
+    display: inline;
+    margin-left: 15px;
+
+}
+.input_popup input::placeholder{
+
+    color: #979EA7;
+}
+.dob {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.dob #date,
+#month,
+#Year {
+    padding-left: 7px;
+
+    width: 125px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: sans-serif;
+    outline: none;
+    border: #E9EAEC solid 1.5px;
+}
+
+.gender_box {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.gender_box label {
+
+
+
+    font-size: 14px;
+    margin-left: 9px;
+    font-family: sans-serif;
+
+}
+
+.gender_box span {
+
+    width: 125px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: normal;
+    font-family: sans-serif;
+    outline: none;
+    border: #E9EAEC solid 1.5px;
+    align-content: center;
+    position: relative;
+
+
+}
+
+.gender_box .radio {
+    box-sizing: border-box;
+    margin-left: 40px;
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+}
+
+.name_email {
+    width: 395px;
+    margin-left: 19px;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+
+.name_email input {
+
+    height: 40px;
+    width: 395px;
+    border: #E9EAEC solid 1.5px;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+    font-family: sans-serif;
+    background: white;
+
+}
+.name_email input::placeholder{
+
+    color: #979EA7;
+
+
+}
+
+
+.signup_text {
+    width: 405px;
+    margin-left: 19px;
+}
+
+.signup_text a {
+    text-decoration: none;
+    color: #526FA6;
+}
+
+.signup_text p {
+
+    color: gray;
+    font-size: 11.7px;
+    font-family: sans-serif;
+
+}
+
+.signup_btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup_btn button {
+
+    width: 195px;
+    font-family: sans-serif;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #13A403;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.signup_btn button:hover {
+    background-color: #43B72B;
+
+}
+.signup_btn a{
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #1676F2;
+}
+
+
+
+.footer {
+
+    width: 985px;
+    height: 190px;
+    margin-left: 330px;
+    box-sizing: border-box;
+
+
+}
+.footer .text1 {
+
+
+    font-family: sans-serif;
+    color: #A2A5A8;
+    font-size: 80%;
+    border-bottom: 1px solid #A2A5A8;
+
+
+}
+
+.languages p {
+
+    border-bottom: 1px solid #A2A5A8;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 75%;
+    word-spacing: 8px;
+    font-family: sans-serif;
+
+}
+
+.languages a {
+
+    text-decoration: none;
+    color: #3C5B9A;
+
+
+}
+
+.languages button {
+
+    border: 1px solid #A2A5A8;
+    width: 30px;
+    height: 20px;
+    color: #3C5B9A;
+    border-radius: 2px;
+    font-size: large;
+
+}
+
+.options p {
+
+    padding-top: 10px;
+    font-size: 75%;
+    word-spacing: 8px;
+    font-family: sans-serif;
+    line-height: 18px;
+    color: #3C5B9A;
+
+
+}
+
+.options a {
+
+    text-decoration: none;
+    color: #3C5B9A;
+
+
+}
